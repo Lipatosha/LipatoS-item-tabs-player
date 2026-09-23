@@ -2,7 +2,7 @@
   "id": "lipatos-item-tabs-player",
   "title": "LipatoS - Вкладки предметов для игроков",
   "description": "Оставляет обычным игрокам при открытии предмета только вкладки «Описание» и «Функции». Вкладки «Подробности» и «Эффекты» скрываются. В меню функций игрокам запрещены редактирование, дублирование и удаление. Для ГМ интерфейс остаётся без изменений.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "authors": [
     {
       "name": "LipatoS"
@@ -16,7 +16,11 @@
     "systems": [
       {
         "id": "dnd5e",
-        "type": "system"
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.5"
+        }
       }
     ]
   },
@@ -24,5 +28,5 @@
     "scripts/main.js"
   ],
   "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-tabs-player/main/module.json",
-  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-tabs-player/main/lipatos-item-tabs-player-v1.1.0.zip"
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-item-tabs-player/main/lipatos-item-tabs-player-v1.1.1.zip"
 }
